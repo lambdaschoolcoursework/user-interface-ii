@@ -1,0 +1,186 @@
+/* 
+http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+	width: 90%;
+	margin: auto;
+	position: relative;
+}
+
+/* header */
+
+header {
+	margin-top: 30px;
+}
+
+.header nav {
+	display: inline-block;
+}
+
+.header nav a {
+	text-decoration: none;
+	color: black;
+	padding: 30px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.header nav a:hover {
+	color: gray;
+}
+
+.logo{
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	margin: 30px;
+	height: 50px;
+}
+
+/* first section */
+
+/* can't get .firstsection to center vertically */
+
+.firstSection {
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding: 75px 0px 75px 0px;
+}
+
+.title {
+	width: 35%;
+	display: inline-block;
+}
+
+.title h1 {
+	font-size: 90px;
+}
+
+.circlePicture {
+	display: inline-block;
+	width: 35%;
+}
+
+.circlePicture img {
+	height: 475px;
+}
+
+/* second section */
+
+.secondSection {
+	text-align: center;
+	padding: 75px 0px 75px 0px;
+}
+
+.secondSection div {
+	display: inline-block;
+	width: 49.8%;
+	font-size: 30px;
+	text-align: left;
+}
+
+/* middle image */
+
+.middle-img {
+	width: 100%;
+}
+
+/* third section */
+
+.thirdSection {
+	text-align: center;
+	padding: 75px 0px 75px 0px;
+	width: 100%;
+	border-bottom: 2px solid black;
+}
+
+.thirdSection div {
+	display: inline-block;
+	width: 33.1%;
+	font-size: 30px;
+	text-align: left;
+}
+
+/* footer */
+
+footer {
+	padding: 75px 0px 75px 0px;
+	font-size: 30px;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 75px;
+}
